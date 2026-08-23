@@ -1,0 +1,37 @@
+# ─── Raw Data ───────────────────────────────────────────────────────────
+# DLD CSV exports are large (multi-MB) government open data files that
+# anyone can re-download from https://dubailand.gov.ae. Storing them in
+# Git would bloat the repo without adding reproducibility value.
+*.csv
+*.xlsx
+
+# ─── Power BI ───────────────────────────────────────────────────────────
+# .pbix files are large binaries that Git can't diff or merge. The
+# dashboard is showcased via screenshots in docs/images/ and the
+# semantic model lives in Microsoft Fabric (not in this repo).
+*.pbix
+
+# ─── Credentials & Environment ─────────────────────────────────────────
+# Snowflake passwords, API tokens, and connection strings must never
+# appear in version control. Use environment variables instead.
+.env
+*.env
+.env.*
+
+# ─── Python ─────────────────────────────────────────────────────────────
+# Virtual environments, bytecode caches, and Jupyter checkpoints are
+# local development artifacts — not project source code.
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ─── OS & IDE ───────────────────────────────────────────────────────────
+# macOS Finder metadata and IDE-specific config files are machine-local
+# and should not propagate across clones.
+.DS_Store
+.idea/
+.vscode/
+*.swp

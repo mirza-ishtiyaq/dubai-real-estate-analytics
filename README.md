@@ -94,6 +94,7 @@ dubai-real-estate-analytics/
 ├── .gitignore
 ├── snowflake/
 │   ├── 01_data_warehouse_pipeline.sql      # One-time DDL: database, schemas, 5 dimensions, fact table
+│   ├── 02_orchestration_and_automation.sql # Stored procedures and Tasks for automated pipeline refresh
 │   └── analysis/
 │       └── exploratory_queries.sql          # Ad-hoc profiling & validation queries
 ├── automation/

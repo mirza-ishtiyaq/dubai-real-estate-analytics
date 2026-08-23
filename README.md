@@ -12,7 +12,7 @@
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="docs/images/dashboard_01.png" width="90%" alt="Dashboard Page 1" />
+  <img src="docs/images/dashboard_demo.gif" width="90%" alt="Dashboard Interactive Demo" />
 </p>
 
 <details>

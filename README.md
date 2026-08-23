@@ -30,7 +30,7 @@
 
 ## 📋 Overview
 
-An end-to-end data engineering and BI project built on **real government open data** from the [Dubai Land Department (DLD)](https://dubailand.gov.ae/en/open-data/real-estate-data/). The pipeline processes 140,000+ property transaction records through five layers:
+An end-to-end data engineering and BI project built on **real government open data** from the [Dubai Land Department (DLD) via Dubai Pulse](https://www.dubaipulse.gov.ae/). The pipeline processes 140,000+ property transaction records through five layers:
 
 ```
 Source CSV → Snowflake Staging → Snowflake Data Warehouse (star schema)
@@ -145,7 +145,7 @@ python automation/load_new_dld_data.py
 ## 📊 Data Source
 
 **Dubai Land Department (DLD) Open Data Portal**
-- URL: [dubailand.gov.ae/en/open-data/real-estate-data/](https://dubailand.gov.ae/en/open-data/real-estate-data/)
+- URL: [www.dubaipulse.gov.ae](https://www.dubaipulse.gov.ae/)
 - Records: 140,000+ property transactions
 - Fields: 22 columns including transaction details, property attributes, location, and parties
 - License: Government open data (public domain)

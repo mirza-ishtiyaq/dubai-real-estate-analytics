@@ -11,20 +11,20 @@
 
 ## 📸 Dashboard Preview
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mirza-ishtiyaq/dubai-real-estate-analytics/main/docs/images/dashboard_demo.gif" width="90%" alt="Dashboard Interactive Demo" />
-</p>
+![Dashboard Interactive Demo](docs/images/dashboard_demo.gif)
 
 <details>
 <summary><b>View all dashboard pages</b></summary>
 
-<p align="center">
-  <img src="docs/images/dashboard_02.png" width="90%" alt="Dashboard Page 2" /><br/><br/>
-  <img src="docs/images/dashboard_03.png" width="90%" alt="Dashboard Page 3" /><br/><br/>
-  <img src="docs/images/dashboard_04.png" width="90%" alt="Dashboard Page 4" /><br/><br/>
-  <img src="docs/images/dashboard_05.png" width="90%" alt="Dashboard Page 5" /><br/><br/>
-  <img src="docs/images/dashboard_06.png" width="90%" alt="Dashboard Page 6" />
-</p>
+![Dashboard Page 2](docs/images/dashboard_02.png)
+
+![Dashboard Page 3](docs/images/dashboard_03.png)
+
+![Dashboard Page 4](docs/images/dashboard_04.png)
+
+![Dashboard Page 5](docs/images/dashboard_05.png)
+
+![Dashboard Page 6](docs/images/dashboard_06.png)
 
 </details>
 

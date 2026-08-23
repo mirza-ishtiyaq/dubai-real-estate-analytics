@@ -47,7 +47,6 @@ Source CSV → Snowflake Staging → Snowflake Data Warehouse (star schema)
 | **SQL** | Production-grade DDL with CTEs, TRY_TO_* type-safe casts, COALESCE/NULLIF null handling, and multi-column composite joins |
 | **Semantic Layer** | Microsoft Fabric semantic model with DAX measures and Row-Level Security via bridge table |
 | **Visualization** | Multi-page Power BI dashboard with custom theme, KPI cards, drill-through, and slicers |
-| **Orchestration** | Snowflake stored procedures + scheduled Tasks for automated DW refresh and data validation |
 
 ## 🏛️ Architecture
 
@@ -95,14 +94,12 @@ dubai-real-estate-analytics/
 ├── .gitignore
 ├── snowflake/
 │   ├── 01_data_warehouse_pipeline.sql      # One-time DDL: database, schemas, 5 dimensions, fact table
-│   ├── 02_orchestration_and_automation.sql  # Stored procedures (SP_REFRESH_DW, SP_VALIDATE_DW) + Tasks
 │   └── analysis/
 │       └── exploratory_queries.sql          # Ad-hoc profiling & validation queries
 ├── automation/
 │   └── load_new_dld_data.py                # Python incremental CSV → Snowflake loader (PUT + COPY INTO)
 ├── powerbi/
-│   ├── Dubai_Real_Estate_Theme.json        # Custom Power BI theme
-│   └── README.md                           # Fabric semantic model notes
+│   └── README.md                           # Fabric semantic model & theme notes
 └── docs/
     └── images/                             # Dashboard screenshots
 ```
@@ -118,15 +115,12 @@ dubai-real-estate-analytics/
 
 ### 1. Build the Data Warehouse
 
-Run the DDL scripts in order against your Snowflake account:
+Run the DDL script against your Snowflake account:
 
 ```sql
 -- Execute in Snowflake worksheet
--- 1. Create database, schemas, dimensions, and fact table
+-- Creates database, schemas, 5 dimension tables, and the fact table
 @snowflake/01_data_warehouse_pipeline.sql
-
--- 2. Set up stored procedures and scheduled tasks
-@snowflake/02_orchestration_and_automation.sql
 ```
 
 ### 2. Load Transaction Data

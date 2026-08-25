@@ -166,4 +166,7 @@ This project is for portfolio and educational purposes. The underlying data is s
 
 ---
 
-*Built by [Mirza Ishtiyaq Baig](https://github.com/mirza-ishtiyaq) — Data Analyst | BI Developer*
+**Author:** Mirza Ishtiyaq Baig — Data Analyst | BI Developer
+**LinkedIn:** [linkedin.com/in/mirzaishtiyaqbaig](https://www.linkedin.com/in/mirzaishtiyaqbaig/)
+**Email:** mirzaishtiyaqbaig1@gmail.com
+**GitHub:** [github.com/mirza-ishtiyaq](https://github.com/mirza-ishtiyaq)

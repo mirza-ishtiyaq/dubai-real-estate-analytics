@@ -12,7 +12,7 @@ The semantic model lives in Microsoft Fabric and connects to the Snowflake data 
 
 ## Custom Theme
 
-[`Dubai_Real_Estate_Theme.json`](Dubai_Real_Estate_Theme.json) — *(not yet added)* Custom Power BI theme file for consistent visual styling across all report pages.
+[`Dubai_Real_Estate_Theme.json`](Dubai_Real_Estate_Theme.json) — a navy/gold theme (data colors, card/table/slicer styling) applied for consistent visual styling across all report pages. Import via **View → Themes → Browse for themes** in Power BI Desktop.
 
 ## Dashboard Screenshots
 

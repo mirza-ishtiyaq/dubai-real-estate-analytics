@@ -1,0 +1,62 @@
+{
+  "name": "Dubai Real Estate Analytics",
+  "dataColors": [
+    "#C9A227",
+    "#0B2545",
+    "#13315C",
+    "#8FB8DE",
+    "#D9B84A",
+    "#5C7080",
+    "#2E4057",
+    "#E8C872"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0B2545",
+  "tableAccent": "#C9A227",
+  "good": "#2E8B57",
+  "neutral": "#D9B84A",
+  "bad": "#B23A48",
+  "maximum": "#0B2545",
+  "center": "#8FB8DE",
+  "minimum": "#F4EFE3",
+  "null": "#BFBFBF",
+  "textClasses": {
+    "callout": { "fontSize": 32, "color": "#0B2545" },
+    "title": { "fontSize": 14, "color": "#0B2545", "fontFace": "Segoe UI Semibold" },
+    "header": { "fontSize": 12, "color": "#0B2545" },
+    "label": { "fontSize": 10, "color": "#2E4057" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": "#0B2545", "fontSize": 28 }],
+        "categoryLabels": [{ "color": "#5C7080", "fontSize": 11 }]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "card": [{ "outline": "None" }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [{ "outline": "BottomOnly" }],
+        "header": [{ "show": true, "fontColor": "#0B2545", "background": "#F4EFE3" }],
+        "items": [{ "fontColor": "#2E4057" }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": "#FFFFFF", "backColor": "#0B2545", "bold": true }],
+        "values": [{ "fontColorPrimary": "#2E4057" }],
+        "total": [{ "fontColor": "#0B2545", "backColor": "#F4EFE3", "bold": true }]
+      }
+    }
+  }
+}

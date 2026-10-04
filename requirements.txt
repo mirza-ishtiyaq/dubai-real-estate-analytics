@@ -1,0 +1,2 @@
+pandas==3.0.5
+snowflake-connector-python==4.7.4
